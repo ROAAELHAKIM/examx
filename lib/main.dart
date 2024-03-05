@@ -1,6 +1,7 @@
 import 'package:exam/Moody/card.dart';
 import 'package:flutter/material.dart';
 
+import 'Moody/Screen3.dart';
 import 'Moody/home.dart';
 import 'Moody/screen2.dart';
 
@@ -18,11 +19,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute:HomePage.routeName ,
       routes: {
-
-
         HomePage.routeName:(context) => HomePage(),
         Screen2.routeName:(context) => Screen2(),
-        card.routeName:(context) => card(),
+        Screen3.routeName:(context) => Screen3(),
+
 
 
 
